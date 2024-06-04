@@ -3,6 +3,9 @@
 spotify_youtube_data <- read.csv("C:\\Users\\SamJutes\\Downloads\\Spotify_Youtube.csv")
 
 #SKIMMING----
+
+#install.packages("skimr", dep = T)
+
 library(skimr)
 skim(spotify_youtube_data)
 
