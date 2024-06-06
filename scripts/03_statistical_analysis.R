@@ -63,7 +63,7 @@ model_liveness <- glm(Stream_cat ~ Liveness, data = cleaned_spotify_youtube_data
                       family = binomial)
 summary(model_liveness)
 
-#LOGISTIC REGRESSION WITH MULTIPLE TERMS WITH BALANCED DATASET----
+#LOGISTIC REGRESSION WITH MULTIPLE TERMS----
 
 model_streams_test_1 <- glm(Stream_cat ~ Instrumentalness + Loudness , data = cleaned_spotify_youtube_data,
                             family = binomial)
@@ -108,3 +108,9 @@ summary(model_streams_test_10)
 model_streams_test_11 <- glm(Stream_cat ~ Loudness * Instrumentalness + Energy, data = cleaned_spotify_youtube_data,
                              family = binomial)
 summary(model_streams_test_11)
+
+#install.packages("car", dep = T)
+library(car)
+
+vif_result_model_9 <- vif(model_streams_test_9, type = 'predictor')
+print(vif_result_model_9)
