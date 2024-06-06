@@ -78,7 +78,7 @@ The analysis focuses on the following aspects of music characteristics:
 - Evaluating model performance and accuracy.
 - Providing insights into how Loudness, Energy, and Instrumentalness influence streaming numbers.
 
-Results are presented in the form of visualizations and summary statistics, which can be found in the [PDF report](report/Analysis of Music Characteristics on Streaming Success Report.pdf) under the report directory.
+Results are presented in the form of visualizations and summary statistics, which can be found in the [PDF report]([report/Analysis of Music Characteristics on Streaming Success Report.pdf]) under the report directory.
 
 ## Contributions
 This project is a work in progress. Feedback and contributions are welcome! Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/samantha-juteram-85b010225) or [Email](mailto:smjuteram@hotmail.com).
